@@ -1,0 +1,139 @@
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --primary-text-color: #2E2F42;
+    --secondary-text-color: #434455;
+    --accent-color: #404BBF;
+}
+
+/*index.html*/
+/*Шрифти Raleway/sans-serif 800 Roboto/sans-serif 400 500 700
+/* Видалення посилань та підкреслень */
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    color: var(--primary-text-color);
+}
+
+/* ==========HEADER========== */
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.167;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+}
+
+.logo-studio {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.167;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.menu-link {
+    /* Body Medium */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+/* «C4» Інтерактивні елементи (кнопки і посилання),при наведенні мишкою або фокусі з клавіатури, мають активний стан, 
+вказаний в Style guide (зміна кольору).*/
+.menu-link:hover,
+.menu-link:focus,
+.contact-mail:hover,
+.contact-mail:focus {
+    color: var(--accent-color);
+}
+
+.contact-phone-number,
+.contact-mail {
+    /* Body */
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+
+/* ==========/HEADER========== */
+/* ==========HERO==========*/
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.071;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background: var(--primary-text-color);
+}
+
+.modal-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4D5AE5;
+    cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background: var(--accent-color);
+}
+
+/* ==========/HERO==========*/
+/* ==========COMPONENTS==========*/
+.text-title-hider-2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.text-title-hider-3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.text-descrition {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+
+/* ==========/COMPONENTS==========*/
+/*portfolio.html*/
+.filter-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    color: #FFFFFF;
+    background: var(--accent-color);
+}
