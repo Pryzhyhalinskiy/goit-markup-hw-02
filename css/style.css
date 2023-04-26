@@ -10,7 +10,13 @@
 
     /* --primary-text-color: #434455; */
     /* --secondary-text-color: #2E2F42; */
+
+    /* --primary-text-color-theme-dark: #FFFFFF;
+    --primary-text-color-theme-light: #434455;
+    --secondary-text-color-theme-dark: #F4F4FD;
+    --secondary-text-color-theme-light: #2E2F42; */
 }
+
 
 /*index.html*/
 /*Шрифти Raleway/sans-serif 800 Roboto/sans-serif 400 500 700
@@ -24,9 +30,10 @@
     text-decoration: none;
 }
 
-body {
+.body {
     font-family: var(--primary-font);
     font-weight: 400;
+    color: #434455;
     background: var(--primary-text-color-theme-dark);
 }
 
@@ -40,8 +47,9 @@ body {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: var(--accent-color-btn);
     text-transform: uppercase;
+    color: var(--accent-color-btn);
+    text-decoration: none;
 }
 
 .logo-studio {
@@ -50,12 +58,17 @@ body {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: var(--secondary-text-color-theme-light);
     text-transform: uppercase;
+    color: var(--secondary-text-color-theme-light);
+    text-decoration: none;
+}
+
+.menu-nav {
+    font-family: var(--secondary-font);
 }
 
 .menu-link {
-    /* Body Medium */
+    font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -65,6 +78,7 @@ body {
 
 /* «C4» Інтерактивні елементи (кнопки і посилання),при наведенні мишкою або фокусі з клавіатури, мають активний стан, 
 вказаний в Style guide (зміна кольору).*/
+
 .menu-link:hover,
 .menu-link:focus,
 .contact-mail:hover,
@@ -79,6 +93,7 @@ body {
 .contact-phone-number,
 .contact-mail {
     /* Body */
+    font-family: var(--primary-font);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -93,6 +108,7 @@ body {
 }
 
 .main-title {
+    font-family: var(--primary-font);
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -120,17 +136,27 @@ body {
 /* ==========/HERO==========*/
 /* ==========COMPONENTS==========*/
 
-.section-1-item {
+.description-strategy-sections {
+    /* .section-1-item - секція 2 */
     font-size: 56px;
     background: var(--primary-text-color-theme-dark);
 }
 
-.section-3-item {
+.description-work-sections {
+    /* .section-2-item - секція 3 */
+}
+
+.description-team-sections {
+    /* .section-3-item - секція 4 */
     background-color:var(--secondary-text-color-theme-dark);
 }
 
 
-.text-title-hider-2 {
+
+.text-title-strategy {
+
+    /* text-title-hider-2 */
+    font-family: var(--primary-font);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -140,7 +166,10 @@ body {
     text-transform: capitalize;
 }
 
-.text-title-hider-3 {
+
+.text-title-description {
+    /* .text-title-hider-3 */
+    font-family: var(--primary-font);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -149,7 +178,8 @@ body {
     background-color:var(--primary-text-color-theme-dark);
 }
 
-.text-descrition {
+.text-description {
+    font-family: var(--primary-font);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -170,13 +200,13 @@ body {
     text-transform: uppercase;
 }
 
-.text-descrition-footer {
+.text-description-footer {
     font-family: var(--primary-font);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--secondary-text-color-theme-dark);
+    color:var(--secondary-text-color-theme-dark);
 }
 
 /* ==========/COMPONENTS==========*/
