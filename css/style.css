@@ -77,8 +77,8 @@
 
 .menu-link:hover,
 .menu-link:focus,
-.contact-mail:hover,
-.contact-mail:focus {
+.mail:hover,
+.mail:focus {
     color: var(--accent-color);
 }
 
