@@ -10,14 +10,11 @@
 
     /* --primary-text-color: #434455; */
     /* --secondary-text-color: #2E2F42; */
-
     /* --primary-text-color-theme-dark: #FFFFFF;
     --primary-text-color-theme-light: #434455;
     --secondary-text-color-theme-dark: #F4F4FD;
     --secondary-text-color-theme-light: #2E2F42; */
 }
-
-
 /*index.html*/
 /*Шрифти Raleway/sans-serif 800 Roboto/sans-serif 400 500 700
 /* Видалення посилань та підкреслень */
@@ -32,7 +29,6 @@
 
 .body {
     font-family: var(--primary-font);
-    font-weight: 400;
     color: #434455;
     background: var(--primary-text-color-theme-dark);
 }
@@ -148,10 +144,8 @@
 
 .description-team-sections {
     /* .section-3-item - секція 4 */
-    background-color:var(--secondary-text-color-theme-dark);
+    background-color:var(--primary-text-color-theme-dark);
 }
-
-
 
 .text-title-strategy {
 
@@ -166,7 +160,6 @@
     text-transform: capitalize;
 }
 
-
 .text-title-description {
     /* .text-title-hider-3 */
     font-family: var(--primary-font);
@@ -180,6 +173,7 @@
 
 .text-description {
     font-family: var(--primary-font);
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
