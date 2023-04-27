@@ -27,10 +27,10 @@
     text-decoration: none;
 }
 
-.body {
-    font-family: var(--primary-font);
-    color: #434455;
-    background: var(--primary-text-color-theme-dark);
+.main-body {
+    font-family:var(--primary-font) ;
+    color:#434455;
+    background:var(--primary-text-color-theme-dark);
 }
 
 /* color: var(--primary-text-color-theme-dark);
