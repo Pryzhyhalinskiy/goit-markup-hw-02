@@ -144,7 +144,7 @@
 
 .description-team-sections {
     /* .section-3-item - секція 4 */
-    background-color:var(--primary-text-color-theme-dark);
+    background-color:var(--secondary-text-color-theme-dark);
 }
 
 .text-title-strategy {
@@ -178,6 +178,10 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color-theme-light);
+}
+
+.menu-item-team {
+    background-color:var(--primary-text-color-theme-dark);
 }
 
 .footer-title {
